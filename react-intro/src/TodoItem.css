@@ -1,0 +1,9 @@
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-container{
+    display: flex;
+    margin-left: 12px ;
+}

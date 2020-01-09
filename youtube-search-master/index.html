@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube search</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="search-bar" style="text-align: center;">
+            <div style="display: inline-block">
+                <img src="https://www1-lw.xda-cdn.com/files/2017/08/After-12-Years-Google-Gives-YouTube-a-New-Logo.png"
+                    alt="">
+            </div>
+        </div>
+        <div class="row" id="search-result">
+            <div class="col-md-12 text-center">
+                <form id="search">
+                    <div class="form-group">
+                        <input type="text" name="keyword" id="keyword" class="form-control" required>
+                        <input type="submit" class="btn btn-primary form-control" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12" id="result-list">
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
